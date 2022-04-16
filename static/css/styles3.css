@@ -370,8 +370,8 @@ a.has-text-danger:hover, a.has-text-danger:focus { color: #ee1742 !important; }
 
 .has-margin {
     margin-bottom:3em;
-    margin-left:10%;
-    width:80%;
+    margin-left:5%;
+    width:95%;
 }
 
 
@@ -383,8 +383,8 @@ a.has-text-danger:hover, a.has-text-danger:focus { color: #ee1742 !important; }
 }
 
 .has-margin4 {
-margin-left:12%;
-       width:75%;
+margin-left:5%;
+       width:90%;
 }
 
 .links { height:15px; width:auto; margin-bottom:10px; margin-top:60px;}
