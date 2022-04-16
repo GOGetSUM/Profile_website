@@ -1,0 +1,223 @@
+{% import "bootstrap/wtf.html" as wtf %}
+
+<head>
+
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+
+        <title>Nick Corona - Python Developer</title>
+
+        <!--    Bootstrap core CSS    -->
+        <link href="{{ url_for('static', filename='css/css_bs/bootstrap.min.css')}}" rel="stylesheet">
+
+
+        <link rel="icon" type="image/x-icon" href="static/css/faviconNCD.ico" />
+
+
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
+
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="{{url_for('static', filename='css/styles3.css')}}" rel="stylesheet" />
+
+<!--       Allows for menu action-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+
+</head>
+<body>
+             <!-- Navigation-->
+            <nav class="navbar navbar-expand-lg " id="mainNav" style="padding:0, font-color:black;">
+                <div class="container hi">
+                    <a class="navbar-brand" href="#title"><img src="{{ url_for('static', filename='N (8).png')}}" class="img-fluid" ></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                        <i class="fas fa-bars"></i>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarResponsive">
+                        <ul class="navbar-nav ms-auto py-4 py-lg-0">
+                             <li class="nav-item active">
+                                <a class="nav-link px-lg-3 py-3 py-lg-4" href="#About"> About Me</a></li>
+                            <li class="nav-item active">
+                                <a class="nav-link px-lg-3 py-3 py-lg-4" href="#Services">Services</a></li>
+                            <li class="nav-item active">
+                                <a class="nav-link px-lg-3 py-3 py-lg-4" href="#Portfolio">Portfolio</a></li>
+                            <li class="nav-item active">
+                                <a class="nav-link px-lg-3 py-3 py-lg-4" href="#Contact">Contact Me</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+
+
+    <section id="title">
+        <div style="height:130;background-color:white;position:center;"></div>
+
+        <div class="container-fluid">
+
+
+
+
+
+            <div class="row">
+                <div class="empty-blox">
+
+                </div>
+            </div>
+        <!--  Title Name      -->
+
+            <div class="row">
+                <div class=" container px-lg-12" style="border:0px;">
+                    <img class="img-fluid title" id="name" src="{{ url_for('static', filename='/css/nick d corona.png')}}"  alt="Responsive image">
+                    <div class="box-text">
+                        <h2 class="Sub-MainTitle has-text-justified has-margin4 "> Leveraging Python Development skills with 6+ years of Engineering experience to help solve your toughest challenges.</h2>
+                    </div>
+                    <div
+                </div>
+            </div>
+            <div class="row">
+                <img src="{{ url_for('static', filename='/css/Graphics title.png')}}" class="img-fluid" alt="Responsive image">
+            </div>
+        </div>
+    </section>
+    <section class="spacer about">
+
+    </section>
+    <section id="About">
+        <div class="container-fluid">
+            <div class="row" id="About-Me-Box">
+                <div class="box-text2">
+                    <img src="{{ url_for('static', filename='/css/Hi.png')}}" class="img-fluid" alt="Responsive image">
+                    <p class="About-Me-text3 has-text-justified  has-margin" >
+                    I'm a Python Developer/Engineer, based in Long Beach, CA.
+                        I am passionate about what I do & would like to help you in what you do.
+                    </p>
+                    <p class="About-Me-text3 has-text-justified  has-margin"  >
+                    Currently searching for work that would advance my development skills and leverage my past work experience to help you accomplished your goals.
+                    </p>
+                    <p class="About-Me-text3 has-text-justified  has-margin"  >
+                    To be honest & fair, I am a new developer with entry level skills but I am a passionate Engineer, pursuing my goals & helping you as I grow.
+                    </p>
+                    <p class="About-Me-text3 has-text-justified  has-margin"  >
+                    If interested in knowing more please download my <a href="{{ url_for('static', filename='NDCorona_Resume.pdf')}}">RESUME.pdf</a>
+                    </p>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="spacer skills">
+
+    </section>
+
+    <section class="section skills" id="Services">
+        <div style="height:130;background-color:white;position:center;"></div>
+        <div style="height:75;position:center;"></div>
+        <div class="container">
+            <div class="box">
+                <div class="content">
+                    <div class="columns">
+                        <div  class="column col-lg-6 col-md-12 col-sm-12" style="display: inline-block;">
+                            <figure class="image"><img class="is-skill-icon" src="{{url_for('static', filename='/css/Dev signs .png')}}"></figure>
+                            <h1 class="title is-size-4 is-spaced">Python Developer</h1>
+                            <p class="has-text-justified has-width has-margin2">I am well studied in various Python Dev. Tools and would like to explore work centered around these skills.</p>
+                            <p class="has-text-justified has-width">Got a project, lets work on it together!</p>
+                            <p class="list-title has-text-primary has-text-weight-normal">Things I enjoy developing:</p>
+                            <p class="has-text-justified has-width">Apps, Bots, Data Analytics Tools, Automation Programs, Web-Design/Front End</p>
+                            <p class="list-title has-text-primary has-text-weight-normal">Python Dev. Tools/Services:</p>
+                            <ul>
+                                <li>Bootstrap</li>
+                              <li>SQL</li>
+                              <li>Flask</li>
+                              <li>Beautiful Soup</li>
+                              <li>Web Scrubbing</li>
+                              <li>Automation</li>
+                              <li>Data Analysis</li>
+                              <li>Front End Development</li>
+                              <li>User Interface Development</li>
+                            </ul>
+                        </div>
+                        <div class="column col-lg-5 col-md-12 col-sm-12" style="display: inline-block;">
+                            <figure class="image"><img class="is-skill-icon" src="{{url_for('static',filename='/css/cad.png')}}"></figure>
+                            <h1 class="title ">Engineer</h1>
+                            <p class="has-text-justified has-width">.    I have a BSMechanical Engineering Major from CSULB and hold an EIT certification (CA). My work experience has been primarily in the manufacturing/industrial sector.</p>
+                            <p class="list-title has-text-primary has-text-weight-normal">Experiences I draw from:</p>
+                            <p class="has-text-justified has-width">Sales, Quality Engr., Manufacturing Engineering & Mfg. Processes., Project Manager</p>
+                            <p class="list-title has-text-primary has-text-weight-normal">CAD Tools:</p>
+                            <ul>
+                              <li>Solid Works</li>
+                              <li>Auto Cad</li>
+                              <li>3D Rendering</li>
+                              <li class="has-margin3">2D/3D Drawings Drafter </liclass>
+                              <li></li>
+                              <li></li>
+                              <li></li>
+                              <li></li>
+                            </ul>
+                        </div>
+                    <div>
+                </div>
+            </div>
+        </div>
+    </section>
+        <section class="spacer porty">
+
+    </section>
+    <section class="section Portfolio" id="Portfolio" >
+        <div style="height:115;background-color:white;position:center;"></div>
+        <div style="height:45;;position:center;"></div>
+        <div class="title portfolio">
+        </div>
+        <div class="viewport px-lg-12" style="border:0px;" >
+            <img class="img-fluid title" src="{{url_for('static',filename='/css/My Recent Work (2).png')}}" >
+            <div class="scrolling-wrapper" style="vertical-align:top;">
+                    <div class="card col-lg-6 col-md-12 col-sm-12">
+                        <img class="img_card" src="{{url_for('static',filename='/css/Under Construction.png')}}">
+                    </div>
+                    <div class="card col-lg-6 col-md-12 col-sm-12" >
+                        <img class="img_card" src="{{url_for('static',filename='/css/Under Construction.png')}}">
+                    </div>
+                     <div class="card col-lg-6 col-md-12 col-sm-12">
+                         <img class="img_card" src="{{url_for('static',filename='/css/Under Construction.png')}}">
+                     </div>
+            </div>
+        </div>
+    </section>
+    <section class="section Contact" id="Contact">
+            <div style="height:350;background-color:white;position:center;"></div>
+            <div class="two-column col-lg-12 col-md-12 col-sm-12" >
+                <a class="photo-contacts-links col-lg-5 col-md-6 col-sm-6" style="display: inline-block;">
+                        <img class="img-fluid title" src="{{url_for('static',filename='/css/Profile.png')}}" alt="Responsive image">
+                </a>
+                <a class="container col-lg-6 col-md-5 col-sm-6" style="margin-top:300px">
+                    <img class="img-fluid title" src="{{url_for('static',filename='/css/phrase.png')}}" alt="Responsive image">
+                </a>
+            </div>
+            <div class="col-lg-12" style="margin-top:60px">
+                <div class=" logo-contacts  col-lg-6 col-md-12 col-sm-12" style="display: inline-block">
+                    <img class="img-fluid title" id="link6" src="{{url_for('static',filename='/css/Contacts.png')}}" alt="Responsive image">
+                    <div class="connect-ass" >
+                        <img class="links" src="{{url_for('static',filename='/css/links.png')}}" alt="Responsive image">
+
+                    </div>
+                    <div class="link-logo" style="vertical-align:Top">
+                       <a href="https://www.linkedin.com/in/nicolas-daniel-corona-2a02771b2/"><img class="links2"  src="{{url_for('static',filename='/css/Linked In.png')}}"></a>
+                        <img class="links2" src="{{url_for('static',filename='/css/Git hub.png')}}">
+                    </div>
+                </div>
+                <div class="form-card col-lg-4 col-md-12 col-sm-12" style="display: inline-block">
+                    <label id="form-title">Lets Chat!</label>
+                    {{ wtf.quick_form(form, novalidate=True) }}
+                </div>
+            </div>
+            <div class="foot">
+              <p class="copyright text-white">Copyright © Nicolas D. Corona, 2022</p>
+            </div>
+    </section>
+
+
+</body>
+
+</html>

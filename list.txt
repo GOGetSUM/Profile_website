@@ -1,0 +1,51 @@
+smtplib - emails
+    #import smtplib
+    # # gmail : smtp.gmail.com, Hotmail : smtp.live.com, Yahoo : smtp.mail.yahoo.com
+    # # you can always google the smtp provided for your specific mail server
+    #
+    # # connection = smtplib.SMTP("smtp.gmail.com", port=587)
+    # #
+    # # # starttls secures connection to your server
+    # # connection.starttls()
+    # # #  logins to sending email
+    # # connection.login(user=my_email, password= password)
+    # #
+    # # #  address to send mail too.
+    # # connection.sendmail(from_addr=my_email, to_addrs="TestCorona29@yahoo.com",
+    # #                     msg="Subject:Hello\n\n "
+    # #                         "This is the body of my email")
+
+    Flask Form, wtforms
+    SQLAlchemy
+    Bootstrap
+    Flask
+
+Languages:
+Python
+HTML
+CSS
+Flask
+SQL
+HTTPS
+REST
+Java
+
+
+Dev Tools:
+PyCharm
+Atom
+Bootstrap
+Replit
+Codepen
+Github
+Gitlab
+Terminal
+
+
+
+
+PILLOW
+SQLALCHEMY
+FLASK
+WTFORMS
+REST
