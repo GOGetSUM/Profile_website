@@ -11,7 +11,7 @@ click ==8.1.2
 colorama == 0.4.4
 dominate == 2.6.0
 greenlet == 1.1.2
-gunicorn 20.1.0
+gunicorn == 20.1.0
 itsdangerous == 2.1.2
 pip == 22.0.4
 setuptools == 62.1.0
