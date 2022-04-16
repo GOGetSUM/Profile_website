@@ -370,8 +370,8 @@ a.has-text-danger:hover, a.has-text-danger:focus { color: #ee1742 !important; }
 
 .has-margin {
     margin-bottom:3em;
-    margin-left:17%;
-    width:60%;
+    margin-left:10%;
+    width:80%;
 }
 
 
@@ -412,4 +412,4 @@ margin-left:12%;
 a .container {position:center;}
 
 #foto { height:calc(50% + 1vw + 1vh)}
-#dicho { height:calc(30% + 1vw + 1vh)}
+#dicho { height:calc(22% + .8vw + 1vh)}
