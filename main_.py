@@ -24,7 +24,7 @@ class Message(db.Model):
     email = db.Column(db.String(100), unique=False, nullable=False)
     phone = db.Column(db.String(20), unique=False,nullable=False)
     message = db.Column(db.String(500), unique=False,nullable=False)
-db.create_all()
+# db.create_all()
 
 #---------------------create record----------------------------------------------------------------
 # visitor_message = Message(
